@@ -1,0 +1,24 @@
+{
+  "name": "zadanie_14_8",
+  "version": "1.0.0",
+  "description": "Wyszukiwarka gifów",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paszak/zadanie_14_8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paszak/zadanie_14_8/issues"
+  },
+  "homepage": "https://github.com/Paszak/zadanie_14_8#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

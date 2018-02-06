@@ -1,0 +1,31 @@
+* {
+	background-color: #baeefc
+}
+body {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.contactForm {
+	margin: 50px 0;
+	text-align: center;
+}
+
+.contactImage {
+	margin-bottom: 15px;
+}
+
+.ContactItem {
+	border: 1px solid black;
+}
+
+.col-md-4 p, .col-md-4 a {
+	margin-left: 25px;
+}
+
+.contactForm * {
+	background-color: #FFF;
+	margin-right: 15px;
+}
+
