@@ -30,11 +30,11 @@ App = React.createClass({
 		xhr.onload = function() {
 			if (xhr.status ===200) {
 				var data = JSON.parse(xhr.responseText).data; //W obiekcie odpowiedzi mamy obiekt z danymi. W tym miejscu rozpakowujemy je sobie do zmiennej data, aby nie pisać za każdym razem response.data.
-					var gif = { //Układamy obiekt gif na podstawie tego co otrzymaliśmy z serwera
-						url: data.fixed_width_downsampled_url,
-						sourceUrl: data.url
-					};
-					callback(gif); //Przekazujemy obiekt do funkcji callback, którą przekazaliśmy jako drugi parametr metody getGif
+				var gif = { //Układamy obiekt gif na podstawie tego co otrzymaliśmy z serwera
+					url: data.fixed_width_downsampled_url,
+					sourceUrl: data.url
+				};
+				callback(gif); //Przekazujemy obiekt do funkcji callback, którą przekazaliśmy jako drugi parametr metody getGif
 			}
 		};
 
