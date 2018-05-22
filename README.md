@@ -1,3 +1,4 @@
-# zadanie_14_8
- Wyszukiwarka gifów
-https://paszak.github.io/zadanie_14_8/
+# React-Gifs-search-engine
+Wyszukiwarka gifów
+
+https://paszak.github.io/React-Gifs-search-engine/
